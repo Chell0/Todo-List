@@ -15,6 +15,16 @@ ul {
 }
 
 body {
+    background: -webkit-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%);
+    /* Chrome, Safari */
+    background: -mz-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%);
+    /* Firefox */
+    background: -ms-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%);
+    /* IE10 */
+    background: -o-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%);
+    /* Opera */
+    background: linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%);
+    /* W3C */
     font-family: Roboto;
 }
 
