@@ -39,6 +39,12 @@ input {
     box-sizing: border-box;
 }
 
+input:focus {
+    background: #ffffff;
+    border: 3px solid #2980b9;
+    outline: none;
+}
+
 #container {
     background: #f7f7f7;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
