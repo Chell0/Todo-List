@@ -18,6 +18,18 @@ body {
     font-family: Roboto;
 }
 
+li {
+    background: #ffffff;
+    color: #666666;
+    height: 40px;
+    line-height: 40px;
+
+}
+
+li:nth-child(2n) {
+    background: #f7f7f7;
+}
+
 #container {
     background: #f7f7f7;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
